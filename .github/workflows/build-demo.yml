@@ -2,7 +2,7 @@ name: Build demo
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, build-demo-apk ]
   pull_request:
     branches: [ main ]
 
