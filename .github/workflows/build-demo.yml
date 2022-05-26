@@ -29,4 +29,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: litr-demo
-        path: app/build/outputs/apk/debug/app-debug.apk
+        path: |
+          litr-demo/build/outputs/apk/debug/app-debug.apk
+          ./**/*.apk
